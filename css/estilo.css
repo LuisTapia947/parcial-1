@@ -1,0 +1,42 @@
+
+.gridContenedor {
+    display: grid;
+    grid-template-areas: 'tex codigo img'
+                        'tex tresimg img';
+    grid-template-rows: 545px 400px 620px;
+    grid-template-columns: 400px 640px 620px;
+    text-align: center;
+     margin-left: 300px;
+     margin-top: 60px;
+}
+
+.divIzquierdo {
+    background-color: blueviolet;
+  color: white;
+   
+}
+
+.divContenedorB {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.divCentroA {
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+
+.divCentroB {
+    background-color: white;
+
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+    
+}
